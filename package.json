@@ -5,14 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx ./src/index.ts"
+    "start": "tsx ./src/index.ts",
+    "test": "vitest run"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^25.0.8",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
   }
 }
